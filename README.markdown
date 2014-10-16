@@ -2,24 +2,25 @@ installation
 ------------
 
 * Clone git repo into home directory
-* cd ~/.vim
-* Run git submodule init and git submodule update
-* ln -s ~/.vim/vimrc ~/.vimrc
-* ln -s ~/.vim/gvimrc ~/.gvimrc
+* `mv dot-vim .vim`
+* `cd ~/.vim`
+* Run `git submodule init` and `git submodule update`
+* `ln -s ~/.vim/vimrc ~/.vimrc`
+* `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
 #### CTags
 * download from [Sourceforge](http://sourceforge.net/projects/ctags/files/ctags/5.8/ctags-5.8.tar.gz/download?use_mirror=softlayer)
-* tar xzvf ctags-5.8.tar.gz
-* cd ctags-5.8
-* ./configure
-* make
-* sudo make install
+* `tar xzvf ctags-5.8.tar.gz`
+* `cd ctags-5.8`
+* `./configure`
+* `make`
+* `sudo make install`
 * if there are any problems, read this: http://runtime-era.blogspot.com/2012/05/exuberant-ctags-in-osx-107.html
 
 #### JSHint
-* brew install node
-* curl https://npmjs.org/install.sh | sh
-* npm install -g jshint
+* `brew install node`
+* `curl https://npmjs.org/install.sh | sh`
+* `npm install -g jshint`
 
 customizations
 --------------
@@ -56,4 +57,3 @@ plugin additions
 ### JSHint
 * Saving js files with errors will show a red squiggle.
 * Open the quickfix window (:copen|:cclose) to see the error and line number.
-
