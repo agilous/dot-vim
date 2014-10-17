@@ -38,6 +38,8 @@ plugin additions
 ----------------
 
 ### Control-P
+* `git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim`
+* `git submodule add https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim`
 * Command t - find file
 * <leader>b - find file in open buffers
 * <leader>cpc - refresh file buffer ("control-p clear")
