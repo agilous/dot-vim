@@ -4,6 +4,10 @@ Bundle 'vim-scripts/bufexplorer.zip'
 
 Bundle 'scrooloose/nerdcommenter'
 
+Bundle 'scrooloose/syntastic'
+  let g:syntastic_enable_signs=1
+  let g:syntastic_quiet_messages = {'level': 'warnings'}
+  let g:syntastic_disabled_filetypes = ['sass']
 Bundle 'sjl/vim-sparkup'
 
 Bundle 'kien/ctrlp.vim'
