@@ -7,6 +7,10 @@ set ruler
 " Set encoding
 set encoding=utf-8
 
+" Highlight current line
+au BufEnter * setlocal cursorline
+au BufLeave * setlocal colorcolumn=0
+
 " Whitespace stuff
 set nowrap
 set tabstop=2
