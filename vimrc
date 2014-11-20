@@ -139,9 +139,6 @@ set directory=~/.vim/backup
 " MacVIM shift+arrow-keys behavior (required in .vimrc)
 let macvim_hig_shift_movement = 1
 
-"Run the pathogen stuff
-call pathogen#infect()
-call pathogen#runtime_append_all_bundles()
 syntax on
 filetype plugin indent on
 
