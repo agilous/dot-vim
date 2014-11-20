@@ -121,12 +121,13 @@ vmap <C-Down> ]egv
 set modeline
 set modelines=10
 
+set autoindent
+
 " Default color scheme
 set background=dark
 
 " Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+set directory=/tmp/
 
 " MacVIM shift+arrow-keys behavior (required in .vimrc)
 let macvim_hig_shift_movement = 1
