@@ -9,7 +9,6 @@ call vundle#begin()
 runtime! plugins.vim
 
 call vundle#end()
-filetype plugin indent on
 
 set number
 set ruler
@@ -19,6 +18,7 @@ set encoding=utf-8
 
 " Highlight current line
 au BufEnter * setlocal cursorline
+au BufLeave * setlocal nocursorline
 au BufLeave * setlocal colorcolumn=0
 
 " Whitespace stuff
