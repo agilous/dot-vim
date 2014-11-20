@@ -1,3 +1,5 @@
+let mapleader=","
+
 set nocompatible
 filetype off
 
@@ -6,7 +8,9 @@ call vundle#begin()
 
 runtime! plugins.vim
 
-let mapleader=","
+call vundle#end()
+filetype plugin indent on
+
 set number
 set ruler
 
