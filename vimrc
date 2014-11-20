@@ -21,6 +21,10 @@ au BufEnter * setlocal cursorline
 au BufLeave * setlocal nocursorline
 au BufLeave * setlocal colorcolumn=0
 
+" Sane window splits
+set splitbelow
+set splitright
+
 " Whitespace stuff
 set nowrap
 set tabstop=2
