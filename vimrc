@@ -1,4 +1,10 @@
 set nocompatible
+filetype off
+
+set rtp+=~/.vim/vundle/
+call vundle#begin()
+
+runtime! plugins.vim
 
 let mapleader=","
 set number
