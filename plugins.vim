@@ -12,11 +12,15 @@ Bundle 'sjl/vim-sparkup'
 
 Bundle 'kien/ctrlp.vim'
   set wildignore+=*/vendor/*,*/tmp/*,*/node_modules/*,*/bower_components/*
+  map <Leader>b :CtrlPBuffer<CR>
+  map <Leader>cpc :CtrlPClearCache<CR>
 
 Bundle 'tpope/vim-repeat'
 
 Bundle 'scrooloose/nerdtree'
   let NERDTreeHijackNetrw = 0
+  let NERDTreeIgnore=['\.rbc$', '\~$']
+  map <Leader>nt :NERDTreeToggle<CR>
 
 Bundle 'tpope/vim-surround'
   let g:surround_35 = "#{\r}"

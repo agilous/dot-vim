@@ -46,18 +46,6 @@ map <C-\> :tnext<CR>
 let g:localvimrc_sandbox=0
 let g:localvimrc_ask=0
 
-" NERDTree configuration
-let NERDTreeIgnore=['\.rbc$', '\~$']
-map <Leader>nt :NERDTreeToggle<CR>
-
-" ZoomWin configuration
-map <Leader><Leader> :ZoomWin<CR>
-
-" Control-P
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-map <Leader>b :CtrlPBuffer<CR>
-map <Leader>cpc :CtrlPClearCache<CR>
-
 nnoremap <silent> <leader>bd :Kwbd<CR>
 
 " % to bounce from do to end etc.
